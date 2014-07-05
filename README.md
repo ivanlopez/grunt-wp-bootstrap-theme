@@ -23,10 +23,10 @@ git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git ~/.grunt-init/wp
 
 ## Usage
 
-At the command-line, cd into an empty directory, run this command and follow the prompts.
+At the command-line, cd into an empty directory, run this command and follow the prompts. Due to having fonts you need to use --force. I plan to update it soon so that you don't need to user --force.
 
 ```
-grunt-init wp-bootsrap-theme
+grunt-init wp-bootsrap-theme --force
 ```
 
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
