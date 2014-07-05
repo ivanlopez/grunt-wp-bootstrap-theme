@@ -1,4 +1,4 @@
-# grunt-wp-theme
+# grunt-wp-bootsrap-theme
 
 > Create a WordPress theme with [grunt-init][].
 

@@ -1,6 +1,6 @@
 /**
- * grunt-wp-theme
- * https://github.com/10up/grunt-wp-theme
+ * grunt-wp-bootsrap-theme
+ * https://github.com/10up/grunt-wp-bootsrap-theme
  *
  * Copyright (c) 2013 Eric Mann, 10up
  * Licensed under the MIT License
