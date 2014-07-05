@@ -12,13 +12,13 @@ Once grunt-init is installed, place this template in your `~/.grunt-init/` direc
 ### Linux/Mac Users
 
 ```
-git clone git@github.com:10up/grunt-wp-theme.git ~/.grunt-init/wp-theme
+git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git
 ```
 
 ### Windows Users
 
 ```
-git clone git@github.com:10up/grunt-wp-theme.git %USERPROFILE%/.grunt-init/wp-theme
+git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ git clone git@github.com:10up/grunt-wp-theme.git %USERPROFILE%/.grunt-init/wp-th
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
 ```
-grunt-init wp-theme
+grunt-init wp-bootsrap-theme
 ```
 
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files._
@@ -45,10 +45,11 @@ After running the init command above, you will be presented with a standard dire
     .. /assets
     .. .. /css
     .. .. .. /src
-    .. .. .. /sass
     .. .. .. /less
+    .. .. .. /vendor
     .. .. /js
     .. .. .. /src
+     .. .. /fonts
     .. /images
     .. .. /src
     .. /includes
@@ -64,13 +65,6 @@ After running the init command above, you will be presented with a standard dire
     .. screenshot.png
     .. style.css
 
-### CSS vs Sass vs LESS
-
-Depending on how you answer the prompt regarding the use of a preprocessor, you will either have a `/src` directory (CSS), a `/sass` directory (Sass), or a `/less` directory (LESS) under your normal `/css` directory.  The goal here is that you only ever edit files in the related source directory and Grunt will automatically build and minify your final stylesheets directly in `/css`.
-
-If you're using Sass or Less, the raw files will be processed into `/css/filename.css` and minified into `/css/filename.min.css`.
-
-If you're using vanilla CSS, the source files will be minified into `/css/filename.min.css`.
 
 *Note:* The `style.css` file in the root of the directory shouldn't contain any style definitions. It's used for populating information on WordPress' themes page only. Your theme's style information should go in the appropriate source directory for your preprocessor under `/assets/css`.
 
