@@ -12,13 +12,13 @@ Once grunt-init is installed, place this template in your `~/.grunt-init/` direc
 ### Linux/Mac Users
 
 ```
-git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git
+git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git ~/.grunt-init/wp-bootsrap-theme
 ```
 
 ### Windows Users
 
 ```
-git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git
+git clone git@github.com:ivanlopez/grunt-wp-bootstrap-theme.git ~/.grunt-init/wp-bootsrap-theme
 ```
 
 ## Usage
