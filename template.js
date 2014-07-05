@@ -70,7 +70,6 @@ exports.template = function( grunt, init, done ) {
 		
 		props.devDependencies["grunt-contrib-less"] = "~0.5.0";
 		props.css_type = 'less';
-		break;
 		
 		console.log( files );
 		
